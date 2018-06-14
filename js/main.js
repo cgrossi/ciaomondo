@@ -1,9 +1,9 @@
 function getData () {
     const url = document.getElementById('url_string').value;
-   const request = new XMLHttpRequest();
-   request.open("GET", url, false);
-   request.send();
-   return JSON.parse(request.responseText)
+    const request = new XMLHttpRequest();
+    request.open("GET", url, false);
+    request.send();
+    return JSON.parse(request.responseText)
 }
 
 
@@ -29,6 +29,6 @@ function insertRow(key, value, index){
 
 
 function makeRequest () {
-   const data = getData();
-   inputData(data)
+    const data = getData();
+    inputData(data)
 }
