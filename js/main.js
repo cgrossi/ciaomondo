@@ -10,9 +10,12 @@ function getData () {
 }
 
 
-function inputData (data) {
+function inputData (pairs) {
     // for each row in data
-    // insert a new row
+    for(let key in pairs){
+        const value = pairs[key];
+        insertRow(key, value);
+    }
 }
 
 
