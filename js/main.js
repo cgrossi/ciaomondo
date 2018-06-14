@@ -1,10 +1,9 @@
 function getData () {
-   const url = "https://nghttp2.org/httpbin/get";
+    const url = document.getElementById('url_string').value;
    const request = new XMLHttpRequest();
    request.open("GET", url, false);
    request.send();
-   console.log(request.responseText);
-   return {key: "value"};
+   return JSON.parse(request.responseText)
 }
 
 
