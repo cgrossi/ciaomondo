@@ -1,11 +1,18 @@
-# ciaomondo
+# Ciao Mondo
 
-Gulp
-Webpack
-NPM
-Vue.js
-Sass
-Bootstrap
-jQuery
-handlebars
-surge.sh
+Integrating current web development technologies.
+
+## Technologies
+
+ - Vue.js
+ - jQuery
+ - handlebars
+
+ - Sass
+ - Bootstrap
+
+ - Gulp
+ - Webpack
+ - NPM
+
+ - surge.sh
