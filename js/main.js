@@ -8,7 +8,6 @@ function getData () {
 
 
 function inputData (pairs) {
-    // for each row in data
     let index = 0;
     for(let key in pairs){
         const value = pairs[key];
