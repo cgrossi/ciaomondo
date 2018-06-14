@@ -12,16 +12,18 @@ function getData () {
 
 function inputData (pairs) {
     // for each row in data
+    let index = 0;
     for(let key in pairs){
         const value = pairs[key];
-        insertRow(key, value);
+        insertRow(key, value, index);
+        index++;
     }
 }
 
 
-function insertRow(key, value){
+function insertRow(key, value, index){
     const table = document.getElementById("tbody");
-    const row = table.insertRow(0);
+    const row = table.insertRow(index);
     const cell1 = row.insertCell(0);
     const cell2 = row.insertCell(1);
     cell1.innerHTML = key;
