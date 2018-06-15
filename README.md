@@ -31,3 +31,10 @@ Integrating current web development technologies.
 - deploy the project to surge.sh
 - add a custom domain name to surge.sh
 - view the code live on the web
+
+
+## Figure out
+ - How to break JS into modules and compile with webpack
+ - How to create webpack.config.js
+ - How to make webpack watch for changes and auto compile
+ 
