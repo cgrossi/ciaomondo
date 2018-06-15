@@ -11,7 +11,7 @@
   "scripts": {
     "build": "webpack",
     "sass": "sass scss/global.scss dist/style.css",
-    "deploy": "surge ...",
+    "deploy": "cd dist && surge --project ./",
 
     "dev": "npm run build && npm run sass",
     "prod": "npm run dev && npm run deploy"
