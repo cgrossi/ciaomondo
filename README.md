@@ -30,3 +30,4 @@ Integrating current web development technologies.
 - deploy the project to surge.sh
 - add a custom domain name to surge.sh
 - view the code live on the web
+- Make webpack compile sass, js modules, and deploy to surge with one command
