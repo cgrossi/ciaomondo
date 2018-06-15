@@ -9,7 +9,12 @@
     "webpack-cli": "^3.0.7"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "sass": "sass scss/global.scss dist/style.css",
+    "deploy": "surge ...",
+
+    "dev": "npm run build && npm run sass",
+    "prod": "npm run dev && npm run deploy"
   },
   "repository": {
     "type": "git",
