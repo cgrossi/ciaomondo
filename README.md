@@ -30,3 +30,8 @@ Integrating current web development technologies.
 - deploy the project to surge.sh
 - add a custom domain name to surge.sh
 - view the code live on the web
+
+
+### View Live
+
+[Click Here](http://sore-nail.surge.sh/)
