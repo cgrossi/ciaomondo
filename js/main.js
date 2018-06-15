@@ -31,3 +31,11 @@ function makeRequest () {
     const data = getData();
     inputData(data)
 }
+
+
+$(function(){
+    $("#toggle").click(function() {
+        $("#hidden").toggle();
+    });
+
+})
