@@ -24,6 +24,7 @@ Integrating current web development technologies.
 - migrate the CSS styles to Sass
 - Spread the javascript into multiple modules
 - Use webpack to compile the Sass to CSS
+- Incorporate Vue.js somehow
 - Use webpack to compile javascript modules into one .js file
 - Use webpack to minify JS and CSS
 - Bundle the entire project
